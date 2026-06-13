@@ -42,7 +42,7 @@ Aurora's AI agent can **perform real-time updates** to your health metrics direc
 ### Installation
 1. Clone the repository and navigate into the project directory:
    ```bash
-   git clone 
+   git clone https://github.com/Pratham-Prog861/aurora.git
    cd aurora
    ```
 2. Install dependencies:
