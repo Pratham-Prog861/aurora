@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0914"
       },
-      "package": "com.aurora.health",
+      "package": "com.pratham8355.aurora",
       "permissions": [
         "RECORD_AUDIO"
       ]
@@ -40,6 +40,11 @@
         }
       ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ffb56696-2bb3-45d2-83f2-2560c2854399"
+      }
+    }
   }
 }
