@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Aurora",
+    "slug": "aurora-health",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0914"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aurora.health",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Aurora uses the microphone for voice health companion features.",
+        "NSSpeechRecognitionUsageDescription": "Aurora uses speech recognition to understand your health queries."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0914"
+      },
+      "package": "com.aurora.health",
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Aurora to access your microphone for voice features."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
